@@ -23,7 +23,7 @@ body{
 .header .logo{
     font-size: 24px;
     color: #F9FAF8;
-    font-weight: 900;
+    font-weight: 700;
 }
 
 ul{
@@ -51,7 +51,7 @@ li{
 .hero-main-text{
     font-size: 48px;
     color: #F9FAF8;
-    font-weight: 800;
+    font-weight: 700;
 }
 
 .hero-secondary-text{
@@ -67,9 +67,110 @@ button{
     border-radius: 5px;
     padding: 8px 40px;
     font-size: medium;
-    font-weight: bold;
+    font-weight: 700;
 }
 
 img{
     max-height: 300px;
+}
+
+.second-section{
+    padding: 50px;
+    margin-bottom: 30px;
+}
+
+.information-header{
+    margin-bottom: 40px;
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+}
+
+.second-section .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #1F2937;
+    gap: 30px;
+}
+
+.info{
+    max-width: 175px;
+    font-size: 18px;
+    
+}
+
+.illustration{
+    height: 160px;
+    width: 160px;
+    border: 4px solid #3882F6;
+    border-radius: 15px
+}
+
+.text{
+    padding-top: 5px;
+}
+
+.third-section{
+    padding: 100px;
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.quote{
+    max-width: 800px;
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.author{
+    margin-right: 30%;
+    align-self: flex-end;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.forth-section{
+    padding: 75px;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    background-color: #3882F6;
+    border-radius: 10px;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+}
+
+.main-text{
+    font-size: 18px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.secondary-text{
+    color: #E5E7EB;
+    display: flex;
+    justify-content: flex-start;
+}
+
+.button{
+    border: 2px solid #F9FAF8;
+    padding: 8px 35px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #E5E7EB;
+    padding: 40px;
+    text-align: center;
 }
